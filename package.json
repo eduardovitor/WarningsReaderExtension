@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "warningsreader.readWarnings",
-        "title": "Read Warnings from the code"
+        "title": "Ler avisos do código"
       }
     ]
   },
