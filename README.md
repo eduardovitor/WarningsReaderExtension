@@ -9,7 +9,7 @@ Esse projeto é um MVP com o objetivo de criar uma extensão do [Visual Studio C
 
 ## 🛠️ Funcionalidades
 
-- Leitura de avisos em inglês;
+- Leitura de avisos em Inglês;
 - Leitura de avisos em Português com uma voz robotizada.
 
 
