@@ -1,71 +1,52 @@
-# warningsreader README
 
-This is the README for your extension "warningsreader". After writing up a brief description, we recommend including the following sections.
+# Leitura em voz alta de avisos do VS Code para auxílio a alunos com deficiência visual (Warnings Reader)
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## 📖 Descrição
 
-For example if there is an image subfolder under your extension project workspace:
+Esse projeto é um MVP com o objetivo de criar uma extensão do [Visual Studio Code](https://code.visualstudio.com/) capaz de assistir alunos de programação com deficiência visual. A ideia era facilitar a leitura de avisos em tempo real da IDE para os alunos similarmente à ferramenta [NVDA](https://www.nvaccess.org/download/).
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## 🛠️ Funcionalidades
 
-## Requirements
+- Leitura de avisos em inglês;
+- Leitura de avisos em Português com uma voz robotizada.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-## Extension Settings
+## 📡 Tecnologias utilizadas
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+<div align="center"> 
+<img align="left" alt="NodeJs" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  
+</div>
+<br/><br/>
 
-For example:
+## ⏳ Inicialização
 
-This extension contributes the following settings:
+Esse projeto foi desenvolvido utilizando [Typescript](https://www.typescriptlang.org/) em conjunto com os pacotes [npm](https://www.npmjs.com/): [translate](https://www.npmjs.com/package/translate) e [say](https://www.npmjs.com/package/say).
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## 🤵🤵‍♀️ Colaboradores
 
-## Known Issues
+Os colaboradores desse projeto foram eu (Eduardo Vítor) e [José Daniel](https://github.com/josedanielgs).
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+<br/>
 
-## Release Notes
+## 🔎 Status do Projeto
 
-Users appreciate release notes as you update your extension.
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Finalizado-blue)
 
-### 1.0.0
+<br/>
 
-Initial release of ...
+## 📑 Referências
 
-### 1.0.1
+[Visual Studio Code](https://code.visualstudio.com/)
 
-Fixed issue #.
+[NVDA](https://www.nvaccess.org/download/)
 
-### 1.1.0
+[Typescript](https://www.typescriptlang.org/)
 
-Added features X, Y, and Z.
+[npm](https://www.npmjs.com/)
 
----
+[translate](https://www.npmjs.com/package/translate)
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[say](https://www.npmjs.com/package/say)
